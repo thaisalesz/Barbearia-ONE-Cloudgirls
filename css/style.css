@@ -1,0 +1,289 @@
+body {
+    font-family: 'Montserrat', 'Poppins', sans-serif;
+}
+
+header {
+    background-color: #BBBBBB;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: lightgoldenrodyellow;
+    text-decoration: underline;
+}
+
+.caixa {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+nav {
+    position: absolute;
+    top: 45%;
+    right: 0;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #c78c19;
+}
+
+.produtos li:active {
+    border-color: #088c19;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descricao-produto {
+    font-size: 18px;
+}
+
+.preco-produto {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url("../banner/bg.jpg");
+    padding: 40px;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+
+}
+
+.form-contato {
+    width: 600px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+fieldset {
+    margin-top: 15px;
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 80%;
+}
+
+.checkbox {
+    margin: 20px;
+}
+
+.btn-enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.btn-enviar:hover {
+    background: darkorange;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+table {
+    margin: 20px 0 40px;
+    width: 80%;
+}
+
+thead {
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/*css da pagina inicial*/
+
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    text-shadow: 2px 2px #c2bdbd;
+}
+
+.principal {
+    padding: 3em 0;
+    background: #FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.imagem-utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.beneficios {
+    padding: 3em 0;
+    background: #888888;
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.itens-beneficios {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.itens-lista {
+    line-height: 1.5;
+}
+
+.itens-lista:first-child {
+    font-weight: bold;
+}
+
+.itens-lista:before {
+    content: "✦ ";
+}
+
+.imagem-beneficios {
+    width: 60%;
+    opacity: 100%;
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover {
+    opacity: 70%;
+}
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa-mapa {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
+}
+
+@media screen and (max-width: 480px) {
+
+    .caixa,
+    .principal,
+    .mapa-mapa,
+    .conteudo-beneficios {
+        width: auto;
+    }
+
+    h1,
+    .titulo-principal {
+        text-align: center;
+    }
+
+    .caixa nav {
+        position: static;
+        text-align: center;
+    }
+
+    .itens-lista,
+    .imagem-beneficios {
+        width: 100%;
+    }
+
+}

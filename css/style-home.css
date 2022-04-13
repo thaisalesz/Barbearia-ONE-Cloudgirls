@@ -1,0 +1,33 @@
+.principal {
+  background-color: #cccccc;
+  padding: 30px;
+}
+h1 {
+  padding-left: 20px;
+}
+h2,
+p,
+h3 {
+  text-align: center;
+}
+#banner {
+  width: 100%;
+}
+p em strong {
+  color: red;
+}
+.itens-lista {
+  font-style: italic;
+}
+.beneficios {
+  background-color: #ffffff;
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+  padding: 20px;
+}
+
+.imagem-beneficios {
+  width: 50%;
+}
